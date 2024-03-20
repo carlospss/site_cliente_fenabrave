@@ -7,27 +7,34 @@
 </head>
 <body>
 	<header>
+		<!--AQUI VAI FICAR A LOGO DO SITE-->
 		<nav>
 			<ul>
-				<li>home</li>
-				<li>institucional</li>
-				<li>sincodiv</li>
-				<li>notícias</li>
-				<li>convenções coletivas</li>
-				<li>parceiros</li>
-				<li>eventos</li>
-					<!--<li>calendário</li>
-					<li>inscrisões online</li>
-					<li>combate das marcas</li>-->
-				<li>fale conosco</li>
+				<li><a href="#">quem somos</a></li>
+				<li><a href="#">concessionárias</a></li>
+				<li><a href="#">notícias</a></li>
+				<li><a href="#">contatos</a></li>
+				<!--DEPOIS EU VOU VER UM NOME MELHOR-->
+				<li><a href="#" class="btn">área restrita</a></li>
 			</ul>
 		</nav>
 	</header>
 
 	<main>
 		<section>
-			<h1>notícias</h1>
 			<article><!--AQUI VAI SER UM PORTAL DE NOTÍCIAS QUE ACREDITO QUE VIRÃO DO BACKEND--></article>
+		</section>
+
+		<section>
+			<header>
+				<h1>nossas concessionárias</h1>
+				<p>Conheça as concessionárias que já fazem parte do SINCODIV CE</p>
+			</header>
+			<article><!--AS CONCESSIONÁRIAS VIRÃO DO BACKEND--></article>
+		</section>
+
+		<section>
+			<h1>associa-se</h1>
 		</section>
 	</main>
 	<footer>
