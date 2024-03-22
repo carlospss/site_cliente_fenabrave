@@ -1,40 +1,28 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+<?php require_once("html/topo.html")?>
 	<title>Fenabrave-Bahia</title>
 </head>
 <body>
-	<header>
-		<!--AQUI VAI FICAR A LOGO DO SITE-->
-		<nav>
-			<ul>
-				<li><a href="#">quem somos</a></li>
-				<li><a href="#">concessionárias</a></li>
-				<li><a href="#">notícias</a></li>
-				<li><a href="#">contatos</a></li>
-				<!--DEPOIS EU VOU VER UM NOME MELHOR-->
-				<li><a href="#" class="btn">área restrita</a></li>
-			</ul>
-		</nav>
-	</header>
-
+	<?php require_once("html/header.html")?>
+	
 	<main>
-		<section>
+		<!--https://fenabraveceara.com.br/-->
+		<section class="section-main">
 			<article><!--AQUI VAI SER UM PORTAL DE NOTÍCIAS QUE ACREDITO QUE VIRÃO DO BACKEND--></article>
 		</section>
 
-		<section>
-			<header>
-				<h1>nossas concessionárias</h1>
-				<p>Conheça as concessionárias que já fazem parte do SINCODIV CE</p>
-			</header>
+		<section class="section-main">
+				<div>
+					<h1>nossas concessionárias</h1>
+					<p>Conheça as concessionárias que já fazem parte do SINCODIV CE</p>
+				</div>
 			<article><!--AS CONCESSIONÁRIAS VIRÃO DO BACKEND--></article>
 		</section>
 
-		<section>
-			<h1>associa-se</h1>
+		<section class="section-main">
+			<div>
+				<h1>associa-se</h1>
+				<p>Porque se associar? Conheça abaixo algumas das vantagens se fazer parte do SINCODIV Ceará</p>
+			</div>
 		</section>
 	</main>
 	<footer>
